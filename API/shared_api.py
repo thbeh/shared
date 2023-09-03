@@ -5,6 +5,9 @@ class UrchinAPI:
     def say_hello():
         return "Hello World";
 
+    def nop():
+        raise NotImplementedError
+
     def get_price_usd(self):
         raise NotImplementedError
 
